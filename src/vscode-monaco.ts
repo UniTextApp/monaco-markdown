@@ -219,6 +219,7 @@ export class TextDocument {
 }
 
 function getLanguageId(model: editor.ITextModel) {
+  // @ts-ignore
   return model.getLanguageId();
 }
 
@@ -334,6 +335,7 @@ export class TextEditor {
   //     throw new Error("Not implemented")
   // }
 
+  // @ts-ignore
   // show(column?: ViewColumn): void {
   //     throw new Error("Not implemented")
   // }
@@ -342,6 +344,7 @@ export class TextEditor {
     revealRangeInEditor(this.editor, TypeConverters.Range.from(range), revealType);
   }
 
+  // @ts-ignore
   // setDecorations(decorationType: TextEditorDecorationType, rangesOrOptions: Range[] | DecorationOptions[]): void {
   //     throw new Error("Not implemented")
   // }

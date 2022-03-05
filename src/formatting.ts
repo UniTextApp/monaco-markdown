@@ -51,14 +51,14 @@ export function activateFormatting(editor: TextEditor) {
     editor,
     "toggleHeadingUp",
     toggleHeadingUp,
-    [KeyMod.WinCtrl | KeyMod.Shift | KeyCode.BracketRight],
+    [KeyMod.WinCtrl | KeyMod.Shift | KeyCode.BracketLeft],
     "Heading up"
   );
   addKeybinding(
     editor,
     "toggleHeadingDown",
     toggleHeadingDown,
-    [KeyMod.WinCtrl | KeyMod.Shift | KeyCode.BracketLeft],
+    [KeyMod.WinCtrl | KeyMod.Shift | KeyCode.BracketRight],
     "Heading down"
   );
   addKeybinding(editor, "toggleList", toggleList, [KeyMod.CtrlCmd | KeyCode.KeyL], "Toggle list");

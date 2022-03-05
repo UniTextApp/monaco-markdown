@@ -1,5 +1,6 @@
-import { illegalArgument } from "./errors";
 import { Uri } from "monaco-editor";
+
+import { illegalArgument } from "./errors";
 
 // export function values<V = any>(set: Set<V>): V[];
 // export function values<K = any, V = any>(map: Map<K, V>): V[];
